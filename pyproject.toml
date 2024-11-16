@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ExampleModule"
+version = "0.0.1"
+description = "Base Configuration for a Python Module on PyPi"
+authors = [{ name = "Toaster" }]
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: Creative Commons Zero v1.0 Universal",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.6"
+dependencies = []
+
+[project.urls]
+"Homepage" = "https://github.com/thekillertoaster/ExampleModule"
+
+[tool.setuptools]
+packages = ["ExampleModule"]
